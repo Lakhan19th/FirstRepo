@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[About to begin executing automation suite Default suite]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing test Default test]]>
+    </line>
+    <line>
+      <![CDATA[Test start add]]>
+    </line>
+    <line>
+      <![CDATA[Test success add]]>
+    </line>
+    <line>
+      <![CDATA[Test start div]]>
+    </line>
+    <line>
+      <![CDATA[Test success div]]>
+    </line>
+    <line>
+      <![CDATA[Test start finalize]]>
+    </line>
+    <line>
+      <![CDATA[Test success finalize]]>
+    </line>
+    <line>
+      <![CDATA[Test start sub]]>
+    </line>
+    <line>
+      <![CDATA[Test success sub]]>
+    </line>
+    <line>
+      <![CDATA[Test start testLogin]]>
+    </line>
+    <line>
+      <![CDATA[Test success testLogin]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="66231" started-at="2017-10-07T03:59:48Z" finished-at="2017-10-07T04:00:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="66231" started-at="2017-10-07T03:59:48Z" finished-at="2017-10-07T04:00:54Z">
+      <class name="com.qa.base.Driver">
+        <test-method status="PASS" signature="excel()[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="excel" is-config="true" duration-ms="741" started-at="2017-10-07T09:29:47Z" finished-at="2017-10-07T09:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excel -->
+        <test-method status="PASS" signature="launchUrl()[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="launchUrl" is-config="true" duration-ms="21423" started-at="2017-10-07T09:29:48Z" finished-at="2017-10-07T09:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method status="PASS" signature="initObject()[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="initObject" is-config="true" duration-ms="8300" started-at="2017-10-07T09:30:09Z" finished-at="2017-10-07T09:30:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initObject -->
+        <test-method status="PASS" signature="cleanFile()[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="cleanFile" is-config="true" duration-ms="1" started-at="2017-10-07T09:30:17Z" finished-at="2017-10-07T09:30:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanFile -->
+        <test-method status="PASS" signature="add()[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="add" duration-ms="42" started-at="2017-10-07T09:30:17Z" finished-at="2017-10-07T09:30:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test success add]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="screenshot" is-config="true" duration-ms="2206" started-at="2017-10-07T09:30:18Z" finished-at="2017-10-07T09:30:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=add status=SUCCESS method=Driver.add()[pri:0, instance:com.qa.base.Driver@6d8a00e3] output=Test success add]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="cleanFile()[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="cleanFile" is-config="true" duration-ms="0" started-at="2017-10-07T09:30:20Z" finished-at="2017-10-07T09:30:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanFile -->
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="div" duration-ms="10" started-at="2017-10-07T09:30:20Z" finished-at="2017-10-07T09:30:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test success div]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="screenshot" is-config="true" duration-ms="495" started-at="2017-10-07T09:30:20Z" finished-at="2017-10-07T09:30:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=div status=SUCCESS method=Driver.div()[pri:0, instance:com.qa.base.Driver@6d8a00e3] output=Test success div]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="finalize()[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="finalize" duration-ms="4" started-at="2017-10-07T09:30:20Z" finished-at="2017-10-07T09:30:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test success finalize]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- finalize -->
+        <test-method status="PASS" signature="cleanFile()[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="cleanFile" is-config="true" duration-ms="0" started-at="2017-10-07T09:30:20Z" finished-at="2017-10-07T09:30:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanFile -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="screenshot" is-config="true" duration-ms="478" started-at="2017-10-07T09:30:20Z" finished-at="2017-10-07T09:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=finalize status=SUCCESS method=Driver.finalize()[pri:0, instance:com.qa.base.Driver@6d8a00e3] output=Test success finalize]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="cleanFile()[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="cleanFile" is-config="true" duration-ms="1" started-at="2017-10-07T09:30:21Z" finished-at="2017-10-07T09:30:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanFile -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="sub" duration-ms="10" started-at="2017-10-07T09:30:21Z" finished-at="2017-10-07T09:30:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test success sub]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="screenshot" is-config="true" duration-ms="607" started-at="2017-10-07T09:30:21Z" finished-at="2017-10-07T09:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sub status=SUCCESS method=Driver.sub()[pri:0, instance:com.qa.base.Driver@6d8a00e3] output=Test success sub]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="cleanFile()[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="cleanFile" is-config="true" duration-ms="1" started-at="2017-10-07T09:30:21Z" finished-at="2017-10-07T09:30:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanFile -->
+        <test-method status="PASS" signature="testLogin()[pri:1, instance:com.qa.base.Driver@6d8a00e3]" name="testLogin" duration-ms="32298" started-at="2017-10-07T09:30:21Z" finished-at="2017-10-07T09:30:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Test success testLogin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="screenshot" is-config="true" duration-ms="180" started-at="2017-10-07T09:30:54Z" finished-at="2017-10-07T09:30:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=Driver.testLogin()[pri:1, instance:com.qa.base.Driver@6d8a00e3] output=Test success testLogin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="temp()[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="temp" is-config="true" duration-ms="19" started-at="2017-10-07T09:30:54Z" finished-at="2017-10-07T09:30:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- temp -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.qa.base.Driver@6d8a00e3]" name="quitDriver" is-config="true" duration-ms="1635" started-at="2017-10-07T09:30:54Z" finished-at="2017-10-07T09:30:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.qa.base.Driver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

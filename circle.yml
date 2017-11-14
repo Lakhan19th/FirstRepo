@@ -1,0 +1,35 @@
+
+
+
+
+machine:
+  environment:
+    JAVA_OPTS: "-Xms512m -Xmx1024m -XX:PermSize=64m -XX:MaxPermSize=256m"
+  java:
+    version: oraclejdk8
+
+
+
+
+
+
+dependencies:
+  override:
+    - java -XX:+PrintFlagsFinal -version
+    - mvn --version
+    
+    
+
+test:
+  override: 
+    - mvn package -Dplay.seleniumSkip -Dplay.dependenciesSkipJars -Pautodeps,dist,play13,with-external-modules --settings .travis.settings.xml -X 
+    
+  post:
+    - mkdir -p $CIRCLE_TEST_REPORTS/junit/
+     - mkdir -p $CIRCLE_TEST_REPORTS/SCREENSHOTS/Pass/
+     - mkdir -p $CIRCLE_TEST_REPORTS/SCREENSHOTS/Fail/
+    - find . -type f -regex ".*/target/surefire-reports/.*html" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
+    
+
+    - find . -type f -regex ".*/src/.*png" -exec cp {} $CIRCLE_TEST_REPORTS/SCREENSHOTS/Pass/ \;
+    - find . -type f -regex ".*/src/.*png" -exec cp {} $CIRCLE_TEST_REPORTS/SCREENSHOTS/Fail/ \;

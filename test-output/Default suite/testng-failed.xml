@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qa.base.Driver">
+        <methods>
+          <include name="initObject"/>
+          <include name="temp"/>
+          <include name="quitDriver"/>
+          <include name="cleanFile"/>
+          <include name="excel"/>
+          <include name="testLogin"/>
+          <include name="screenshot"/>
+          <include name="launchUrl"/>
+        </methods>
+      </class> <!-- com.qa.base.Driver -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
